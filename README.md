@@ -1,0 +1,15 @@
+# Source-analysis snapshot (2026-11-05)
+
+This folder contains the project's original statistical/model scripts, not only matplotlib code. Original paths and exact SHA256 values are recorded in provenance/source_analysis_SHA256.json and provenance/Z1_code_inventory.tsv. Files were read and copied; no target analysis was imported or run.
+
+These are historical source snapshots, not a newly tested portable package. Several use G:/E: paths, current working directories, or __file__ parent assumptions. Configure project roots, inputs and third-party dependencies before executing; copied location alone does not preserve those assumptions. Four-chain Curveball and code using downloaded official functions need their original upstream files as documented. Do not run these files automatically when merely previewing this archive.
+
+No historical Git tag was fabricated. No C-drive skill implementation or installed runtime/library is bundled. Third-party mmseq/coloc/scTenifold implementations are referenced and separately versioned, not labelled project-owned. A helper import of a local figure-QA skill in an original script is not a redistribution of that skill and must be removed or replaced in a portable public execution layer.
+
+License selection remains explicit: consider MIT/BSD-3-Clause for confirmed project-owned code after authorship/dependency review; preserve third-party licenses. Do not apply a blanket CC-BY data license to this mixed package. ChEMBL-derived extracts, PubChem contributions and the NC-licensed public protein dataset retain their distinct rights. Raw patient-level workbooks were not copied here.
+
+## Two execution layers
+
+`source_analysis/` preserves the original statistical/model snapshots and their original path assumptions. These analyses were not re-fitted for W0. `figure_scripts/` is the separately adapted public figure layer: its documented modulewise strict-bundle smoke checks redrew all 24 frozen figure plates without using original data locations as fallbacks. That is a figure-reproduction check, not a clean-environment re-run of every upstream statistical analysis. Run `python strict_bundle_smoke.py` inside `figure_scripts/` with the separately supplied source-data archives in the documented sibling layout. See `figure_scripts/README.md` and `publicity_readiness.json` for exact scope and remaining checks.
+
+No open-source code licence has been selected. The original author source is provided for inspection with rights reserved as described in `LICENSE_NOTICE.md`; third-party rights are described separately in `THIRD_PARTY_NOTICES.md`. Repository: [taoshuo357/gout-endpoint-evidence](https://github.com/taoshuo357/gout-endpoint-evidence). Version label: `v0.1-W0-review`. The repository has been created; this metadata update does not claim that the payload, a tag or an archived release has been uploaded. The data DOI `10.5281/zenodo.23969076` is reserved only, not registered; data upload and publication have not yet occurred. It is not a code DOI and must not be cited as a completed data deposition.
