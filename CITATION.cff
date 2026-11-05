@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Cite the exact archived code version and its DOI when available."
+title: "Endpoint-resolved gout evidence analysis and figure sources"
+version: "v0.1-W0-review"
+date-released: "2026-11-05"
+authors:
+  - family-names: "Yang"
+    given-names: "Taoshuo"
+abstract: "Original analysis script snapshots and figure sources for a retrospective public-data study. No new molecular measurements. Raw inputs remain subject to their original licences."
+
+repository-code: "https://github.com/taoshuo357/gout-endpoint-evidence"

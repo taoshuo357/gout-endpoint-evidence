@@ -1,15 +1,51 @@
-# Source-analysis snapshot (2026-11-05)
+# Endpoint-resolved gout evidence code
 
-This folder contains the project's original statistical/model scripts, not only matplotlib code. Original paths and exact SHA256 values are recorded in provenance/source_analysis_SHA256.json and provenance/Z1_code_inventory.tsv. Files were read and copied; no target analysis was imported or run.
+Repository: https://github.com/taoshuo357/gout-endpoint-evidence  
+Snapshot label and target tag: **v0.1-W0-review**
 
-These are historical source snapshots, not a newly tested portable package. Several use G:/E: paths, current working directories, or __file__ parent assumptions. Configure project roots, inputs and third-party dependencies before executing; copied location alone does not preserve those assumptions. Four-chain Curveball and code using downloaded official functions need their original upstream files as documented. Do not run these files automatically when merely previewing this archive.
+[Download the source ZIP](./Code_W0_review.zip?raw=1) · [Archive file manifest](./Code_W0_package_manifest.json) · [Citation](./CITATION.cff)
 
-No historical Git tag was fabricated. No C-drive skill implementation or installed runtime/library is bundled. Third-party mmseq/coloc/scTenifold implementations are referenced and separately versioned, not labelled project-owned. A helper import of a local figure-QA skill in an original script is not a redistribution of that skill and must be removed or replaced in a portable public execution layer.
+The source archive contains **94 files** under `Code_W0_review/`: 68 original statistical/model scripts in `source_analysis/`, 13 files in the public `figure_scripts/` layer, and provenance and rights/citation records. The 94 entries in the manifest describe the ZIP contents. Download and extract the ZIP to obtain the analysis and plotting directories; this repository root distributes the archive and its metadata.
 
-License selection remains explicit: consider MIT/BSD-3-Clause for confirmed project-owned code after authorship/dependency review; preserve third-party licenses. Do not apply a blanket CC-BY data license to this mixed package. ChEMBL-derived extracts, PubChem contributions and the NC-licensed public protein dataset retain their distinct rights. Raw patient-level workbooks were not copied here.
+## Archive integrity
 
-## Two execution layers
+`Code_W0_review.zip` is **402,726 bytes**.
 
-`source_analysis/` preserves the original statistical/model snapshots and their original path assumptions. These analyses were not re-fitted for W0. `figure_scripts/` is the separately adapted public figure layer: its documented modulewise strict-bundle smoke checks redrew all 24 frozen figure plates without using original data locations as fallbacks. That is a figure-reproduction check, not a clean-environment re-run of every upstream statistical analysis. Run `python strict_bundle_smoke.py` inside `figure_scripts/` with the separately supplied source-data archives in the documented sibling layout. See `figure_scripts/README.md` and `publicity_readiness.json` for exact scope and remaining checks.
+SHA256:
 
-No open-source code licence has been selected. The original author source is provided for inspection with rights reserved as described in `LICENSE_NOTICE.md`; third-party rights are described separately in `THIRD_PARTY_NOTICES.md`. Repository: [taoshuo357/gout-endpoint-evidence](https://github.com/taoshuo357/gout-endpoint-evidence). Version label: `v0.1-W0-review`. The repository has been created; this metadata update does not claim that the payload, a tag or an archived release has been uploaded. The data DOI `10.5281/zenodo.23969076` is reserved only, not registered; data upload and publication have not yet occurred. It is not a code DOI and must not be cited as a completed data deposition.
+```text
+cd4df0e9a0a178efa2d3440a78d8bd3ad3dcb6ff4a0aa41e85332664f2bfe235
+```
+
+The accompanying manifest records each archive entry's size, SHA256 and Git blob SHA1.
+
+## Redraw the frozen figure outputs
+
+Place the separately supplied `Fig01_SourceData.zip`–`Fig22_SourceData.zip` files in a sibling directory named `Zenodo_upload_22_files/`:
+
+```text
+project/
+  Code_W0_review/
+    source_analysis/
+    figure_scripts/
+    provenance/
+  Zenodo_upload_22_files/
+    Fig01_SourceData.zip
+    ...
+    Fig22_SourceData.zip
+```
+
+Install the dependencies recorded in `figure_scripts/requirements.txt`, then run:
+
+```bash
+cd Code_W0_review/figure_scripts
+python strict_bundle_smoke.py
+```
+
+The recorded modulewise strict-bundle checks redrew **24 figure plates** from exact SHA-verified archived inputs. `publicity_readiness.json` contains the module results and read receipts; `figure_scripts/README.md` documents the resolver and export settings. These checks redraw frozen statistical outputs. The original statistical/model sources retain their original input and path assumptions.
+
+## Rights and data record
+
+Author-source rights are reserved pending the authors' code-licence selection. `LICENSE_NOTICE.md` and `THIRD_PARTY_NOTICES.md` inside the ZIP distinguish author code, external software and dataset-specific reuse terms.
+
+Data-record status at preparation of this snapshot: DOI **10.5281/zenodo.23969076** is **reserved, not registered or published**. It is a data identifier, separate from this code archive.
