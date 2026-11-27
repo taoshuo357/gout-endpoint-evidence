@@ -1,51 +1,11 @@
-# Endpoint-resolved gout evidence code
+# Endpoint-resolved gout evidence: W0 baseline
 
-Repository: https://github.com/taoshuo357/gout-endpoint-evidence  
-Snapshot label and target tag: **v0.1-W0-review**
+Taoshuo Yang. **GitHub target version: `v0.1.1-W0-release`** (tag pending). The W0 data and author-code deposit was published on 27 November 2026: [Zenodo DOI 10.5281/zenodo.24574321](https://doi.org/10.5281/zenodo.24574321), data version `0.1.1-W0-public-derivative`.
 
-[Download the source ZIP](./Code_W0_review.zip?raw=1) · [Archive file manifest](./Code_W0_package_manifest.json) · [Citation](./CITATION.cff)
+The deposit contains 28 files, including 22 figure archives and the [105-entry author-code ZIP](Code_W0_v0.1.1_MIT_release.zip). Its 78 original Python/R scripts are unchanged. Nineteen figure archives preserve the W0 bytes; F03, F04 and F22 are explicitly partial, with five source-associated members omitted and linked to their original providers. Use the deposit's `reviewed_22_file_manifest.tsv` and `five_source_member_omissions.tsv` for the published derivative. The root `DATA_ARCHIVE_RIGHTS.tsv` and `DATA_MEMBER_RIGHTS.tsv` document the original W0 audit, including the omitted members.
 
-The source archive contains **94 files** under `Code_W0_review/`: 68 original statistical/model scripts in `source_analysis/`, 13 files in the public `figure_scripts/` layer, and provenance and rights/citation records. The 94 entries in the manifest describe the ZIP contents. Download and extract the ZIP to obtain the analysis and plotting directories; this repository root distributes the archive and its metadata.
+Project-authored software is MIT; source data keep their file-specific terms, including applicable ChEMBL BY-SA 3.0 and public protein BY-NC 4.0 conditions. See [LICENSING_SCOPE.md](LICENSING_SCOPE.md), [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and the deposit's rights files. The dataset DOI identifies this mixed data-and-code deposit; it is not a separate software DOI.
 
-## Archive integrity
+Extract the code ZIP to obtain `Code_release/`. Historical `source_analysis/` scripts retain their original path/dependency assumptions. The portable `figure_scripts/` layer redraws frozen results using exact archive identities and hashes; full replay requires the five omitted inputs through the documented source routes. Historical local checks covered six modules and 24 plates; clean-environment installation and cross-platform statistical reproduction remain untested.
 
-`Code_W0_review.zip` is **402,726 bytes**.
-
-SHA256:
-
-```text
-cd4df0e9a0a178efa2d3440a78d8bd3ad3dcb6ff4a0aa41e85332664f2bfe235
-```
-
-The accompanying manifest records each archive entry's size, SHA256 and Git blob SHA1.
-
-## Redraw the frozen figure outputs
-
-Place the separately supplied `Fig01_SourceData.zip`–`Fig22_SourceData.zip` files in a sibling directory named `Zenodo_upload_22_files/`:
-
-```text
-project/
-  Code_W0_review/
-    source_analysis/
-    figure_scripts/
-    provenance/
-  Zenodo_upload_22_files/
-    Fig01_SourceData.zip
-    ...
-    Fig22_SourceData.zip
-```
-
-Install the dependencies recorded in `figure_scripts/requirements.txt`, then run:
-
-```bash
-cd Code_W0_review/figure_scripts
-python strict_bundle_smoke.py
-```
-
-The recorded modulewise strict-bundle checks redrew **24 figure plates** from exact SHA-verified archived inputs. `publicity_readiness.json` contains the module results and read receipts; `figure_scripts/README.md` documents the resolver and export settings. These checks redraw frozen statistical outputs. The original statistical/model sources retain their original input and path assumptions.
-
-## Rights and data record
-
-Author-source rights are reserved pending the authors' code-licence selection. `LICENSE_NOTICE.md` and `THIRD_PARTY_NOTICES.md` inside the ZIP distinguish author code, external software and dataset-specific reuse terms.
-
-Data-record status at preparation of this snapshot: DOI **10.5281/zenodo.23969076** is **reserved, not registered or published**. It is a data identifier, separate from this code archive.
+This is the 5 November 2026 W0 scientific snapshot with its later licensing patch. Subsequent E15–E19 analyses and model training require separate releases. The old reserved record `23969076` remains an unpublished historical draft; cite `24574321` for these public data. [PUBLICATION_STATUS.md](PUBLICATION_STATUS.md) records verification and the pending GitHub tag.

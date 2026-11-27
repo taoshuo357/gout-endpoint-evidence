@@ -1,0 +1,554 @@
+{
+  "proposed_version": "v0.1.1-W0-release",
+  "prepared_date": "2026-11-26",
+  "author": "Taoshuo Yang",
+  "scientific_snapshot_date": "2026-11-05",
+  "scope": "W0-only scoped author-code licensing/documentation patch",
+  "old_code_members": 94,
+  "original_code_unchanged_count": 78,
+  "included_file_count": 105,
+  "files": [
+    {
+      "path": "Code_release/CITATION.cff",
+      "bytes": 643,
+      "SHA256": "4d030c974f55475ef056a0a7142644ee3814b995728b0735081106804e835144"
+    },
+    {
+      "path": "Code_release/figure_scripts/atlas_network_structure_ko.py",
+      "bytes": 48260,
+      "SHA256": "0269c8ff70e0ab2a6a634b063773cdb23c3fa801de07ebef7fd1eca689f1ca59"
+    },
+    {
+      "path": "Code_release/figure_scripts/atlas_style.py",
+      "bytes": 4296,
+      "SHA256": "262fed037fc757893bf7df7d1c4eb6314f1c9965cca5b2ecff1d39c3ac1577b7"
+    },
+    {
+      "path": "Code_release/figure_scripts/draw_functional_main.py",
+      "bytes": 41126,
+      "SHA256": "a291caf79e2d15b691b1922d8c291ebf7a5a5bf2b1cb5bd8af3e9f898c212e24"
+    },
+    {
+      "path": "Code_release/figure_scripts/draw_root_assays.py",
+      "bytes": 10320,
+      "SHA256": "021bc107cc2e2d34f367d58c4359aaab9af4206e9a725e8d6fc92a267d477215"
+    },
+    {
+      "path": "Code_release/figure_scripts/draw_screen_audit.py",
+      "bytes": 7292,
+      "SHA256": "25b10aa85e93f2f9e6b2ec3c8c6d1b92790c5f307bacc00870b302fdd80fb18a"
+    },
+    {
+      "path": "Code_release/figure_scripts/draw_singlecell_atlas.py",
+      "bytes": 42483,
+      "SHA256": "236a542d529a57344b70a90b88f72163831af7b5e7458712bd0f49d1046e589a"
+    },
+    {
+      "path": "Code_release/figure_scripts/plot_root_contexts.py",
+      "bytes": 5975,
+      "SHA256": "47c2adbe7431b82cb0c41dc45342d94b571256acdf72218abb5130e92e963e03"
+    },
+    {
+      "path": "Code_release/figure_scripts/README.md",
+      "bytes": 1601,
+      "SHA256": "90cf427b263a703709c70076298b47ae1539914a0f96118ed59843b7b6655312"
+    },
+    {
+      "path": "Code_release/figure_scripts/requirements.txt",
+      "bytes": 59,
+      "SHA256": "273e2b0c9bc155c1418985a9f54fce7f2f7a9b19780379ec576862d2fc12a8be"
+    },
+    {
+      "path": "Code_release/figure_scripts/resolver.py",
+      "bytes": 4890,
+      "SHA256": "377c6cd5d2b179576d811c4f1f8ae9ea0c83b9a2681d085aae7c95fb627561a7"
+    },
+    {
+      "path": "Code_release/figure_scripts/smoke_child.py",
+      "bytes": 229,
+      "SHA256": "b229ad2bb5bd87d00d28fe1290757e3bd5728e66e3da87d56103e5bd2dc77b40"
+    },
+    {
+      "path": "Code_release/figure_scripts/strict_bundle_smoke.py",
+      "bytes": 2589,
+      "SHA256": "db7659e5a7770bbe29760fec9a5faadb59d30f91da2929a11ac076427da47364"
+    },
+    {
+      "path": "Code_release/figure_scripts/tested_dependency_versions.txt",
+      "bytes": 112,
+      "SHA256": "09f82bf40822f59eb92f660e72a7acd7f89b1133facd2d2372e0e7b7e71135ac"
+    },
+    {
+      "path": "Code_release/LICENSE",
+      "bytes": 1090,
+      "SHA256": "0021aaf3a7fa8dddc62ac48de315b93a49e1a3001f65d474e0e94fa5e74d39db"
+    },
+    {
+      "path": "Code_release/LICENSE_NOTICE.md",
+      "bytes": 1030,
+      "SHA256": "4a5ef6c884ce7d57a047a034425d80f2b07cf21bc56879b50e84d30c8b68b91c"
+    },
+    {
+      "path": "Code_release/licensing/A_B_EXTENSION_ASSETS_AND_GAPS.tsv",
+      "bytes": 8962,
+      "SHA256": "c9d929a094a9d45500b70aa9c107235dadd4f51ae8dbaafa412961ee417ed6e1"
+    },
+    {
+      "path": "Code_release/licensing/AUTHOR_OUTPUTS_PUBLIC_LIST.tsv",
+      "bytes": 274689,
+      "SHA256": "d1c419a2c1d43481df9d640c8c8e2c47e262b53a8eb585ad908bd16770f27fcb"
+    },
+    {
+      "path": "Code_release/licensing/CODE_RIGHTS_MANIFEST.tsv",
+      "bytes": 25768,
+      "SHA256": "ab3a78d6467ddc92b379a4944d2f67e4234a40f4d3185c2849111a36da0698b1"
+    },
+    {
+      "path": "Code_release/licensing/DATA_ARCHIVE_RIGHTS.tsv",
+      "bytes": 6387,
+      "SHA256": "6c7a52c33347f139e0806af84e5d539362b79a3f8add9b16c6459496efb6ee50"
+    },
+    {
+      "path": "Code_release/licensing/DATA_MEMBER_RIGHTS.tsv",
+      "bytes": 321828,
+      "SHA256": "799e64ac15359e269f946fccafe914e3af97533f9ef0623faf21369ecaa52e70"
+    },
+    {
+      "path": "Code_release/licensing/DATA_RIGHTS_README.md",
+      "bytes": 2680,
+      "SHA256": "66b7c874ed37aa12cb5a3c6db0ebb13d540563f30c64ae415078dbf0ecfc40c7"
+    },
+    {
+      "path": "Code_release/licensing/FIELD_LEVEL_RIGHTS_REVIEW.tsv",
+      "bytes": 3020,
+      "SHA256": "443ff19c1d2cc7fe5fbd48707a1012ad909fe338bf436028a3422669dbbb6c5d"
+    },
+    {
+      "path": "Code_release/licensing/OFFICIAL_SOURCE_RIGHTS.tsv",
+      "bytes": 4239,
+      "SHA256": "427bd4b65fd54965743168e890667f6139a6c683e2465683ecb71ae9a8374cee"
+    },
+    {
+      "path": "Code_release/licensing/WITHHOLD_OR_REPLACE_MEMBERS.tsv",
+      "bytes": 4701,
+      "SHA256": "d5e79d586a746c86bcbf31489a2f5c47caf217765e06f8f8532bc3aeeab242a4"
+    },
+    {
+      "path": "Code_release/LICENSING_SCOPE.md",
+      "bytes": 1608,
+      "SHA256": "432f9ad8817668d5e21595da078d93f169dfe3d5e3083648b2109690bc022456"
+    },
+    {
+      "path": "Code_release/provenance/existing_version_record_locations.json",
+      "bytes": 2186,
+      "SHA256": "74e08d6bc259b2d19ba57ab8c6e3fe1abefc521e8a42aa206c10e597e8b1fa28"
+    },
+    {
+      "path": "Code_release/provenance/figure_script_portability_map.json",
+      "bytes": 4025,
+      "SHA256": "1ff0c68534793f4acf5e4a901d9c1c020f1126a2a39eb643687adbe52ae058e0"
+    },
+    {
+      "path": "Code_release/provenance/saved_dependency_pins.json",
+      "bytes": 1293,
+      "SHA256": "48be4617d3049c86b82e54393d38fe9b65ed903fe3d070f41a469781b78aa110"
+    },
+    {
+      "path": "Code_release/provenance/source_analysis_SHA256.json",
+      "bytes": 44927,
+      "SHA256": "a432c2ae463095789b23bff7d67a5d1c0dee4e0c0da0e0a36f7e664d3d935fca"
+    },
+    {
+      "path": "Code_release/provenance/static_inventory_summary.json",
+      "bytes": 1226,
+      "SHA256": "62da568f281e52078c7fccd2990d33befff6ab3d5ab6a7ebdd89b35f5214e353"
+    },
+    {
+      "path": "Code_release/provenance/Z1_code_inventory.tsv",
+      "bytes": 173163,
+      "SHA256": "5363f2e6f13b69b699ba6172d83c9b260691630a00125f74fd99a0ce80752fea"
+    },
+    {
+      "path": "Code_release/provenance/Z1_final_static_QA.json",
+      "bytes": 1444,
+      "SHA256": "7331a16ac85e3212244d5d2c52fff12bc60bb4c0c96797449df45b9a740f8960"
+    },
+    {
+      "path": "Code_release/provenance/Zenodo_23181166_current_rights.json",
+      "bytes": 913,
+      "SHA256": "a8e1ebd789fab3691cef87df254bf0eb3dd50affb27a5691a7fcd9520a6ff923"
+    },
+    {
+      "path": "Code_release/publicity_readiness.json",
+      "bytes": 352701,
+      "SHA256": "bf024f09fc23ff10aaaef4ca4a3b3fc2316e440a345be586ffd46e013ff80ab8"
+    },
+    {
+      "path": "Code_release/README.md",
+      "bytes": 3128,
+      "SHA256": "81e308ea327d3d72ea1083450c3de86a096e337f656d18588125fdc8a809f234"
+    },
+    {
+      "path": "Code_release/source_analysis/00_project_helpers/allvalidation_common_20261102.py",
+      "bytes": 1429,
+      "SHA256": "fcc3e3eb50567c3985ddce7fdf48cbb409617bd6d7904413324d0d4df0e32f40"
+    },
+    {
+      "path": "Code_release/source_analysis/00_project_helpers/bioadvance_common_20261102.py",
+      "bytes": 1119,
+      "SHA256": "1c59e5fd5426dfd4d851c450049185da8ed830b21565dd4b23c59ef19bef1a48"
+    },
+    {
+      "path": "Code_release/source_analysis/01_urate/执行完整官方调控与通路活动.py",
+      "bytes": 4102,
+      "SHA256": "c370d168b710a515d6a88bce8439d34243ef4c3a69b55a1f7fc433ec9eab6711"
+    },
+    {
+      "path": "Code_release/source_analysis/01_urate/执行官方MMSEQ归一化与供体阻断模型.R",
+      "bytes": 6116,
+      "SHA256": "6199fed6a7a28e3957641dff11ea704a704e26fa9c4647b7b12f5bc85451015b"
+    },
+    {
+      "path": "Code_release/source_analysis/01_urate/执行活动供体阻断模型.R",
+      "bytes": 2514,
+      "SHA256": "ea691fb26f2086a69e9a9d388e7b28a1c3a08398b5ffc725308a044d2670705b"
+    },
+    {
+      "path": "Code_release/source_analysis/02_perturbations/run_GSE160430_footprints.py",
+      "bytes": 4905,
+      "SHA256": "3497700df18f82dfb38c36cd8f271b0739505a2974d23879df006cf3c00e60af"
+    },
+    {
+      "path": "Code_release/source_analysis/02_perturbations/run_GSE160430_limma.R",
+      "bytes": 3978,
+      "SHA256": "ca92e63fba42fe9a224412fd901a96293e35c808e2d70c6c6c965d2a2c535cdd"
+    },
+    {
+      "path": "Code_release/source_analysis/02_perturbations/run_GSE160430_score_limma.R",
+      "bytes": 2854,
+      "SHA256": "5a6e2f7649aa1748c532d1e28baa1d826d52143def4cfd7ebe4489ad0b87c86d"
+    },
+    {
+      "path": "Code_release/source_analysis/02_perturbations/run_GSE246713_logCPM_sensitivity.R",
+      "bytes": 1959,
+      "SHA256": "72e7fb79c3734065f820ae3239bece4e60458addc94cb9898293fef1d8df2c7a"
+    },
+    {
+      "path": "Code_release/source_analysis/02_perturbations/run_GSE246713_voom.R",
+      "bytes": 4552,
+      "SHA256": "ab4c3fb515ebe05bd2e297f31bab3ecca533fb2bc21b2843a37be8c61111d1a8"
+    },
+    {
+      "path": "Code_release/source_analysis/02_perturbations/run_MCC950_HCOP_footprints.py",
+      "bytes": 7808,
+      "SHA256": "da8a447ee30594c54b4b9522f2b4263e990c5ccacc48ac4af3e54fb6ee609587"
+    },
+    {
+      "path": "Code_release/source_analysis/02_perturbations/run_MCC950_score_models.R",
+      "bytes": 2867,
+      "SHA256": "9043ca1d31bb0d262e8298da3541712f83575bd1114b8b600fb5af07bb87983c"
+    },
+    {
+      "path": "Code_release/source_analysis/02_perturbations/run_paired_quercetin_limma.R",
+      "bytes": 3094,
+      "SHA256": "71ec03da8c57219178f4d9abfa862d084117c32105e81fb0d71f709d35fb7a38"
+    },
+    {
+      "path": "Code_release/source_analysis/02_perturbations/运行完整签名对照.py",
+      "bytes": 9106,
+      "SHA256": "8b2187fa958f64bfc8b9450974faf1f46bfbd057b3b589f5daf8f2285f872338"
+    },
+    {
+      "path": "Code_release/source_analysis/03_GP_calibration/prepare_BO_chembl.py",
+      "bytes": 2933,
+      "SHA256": "2f2902fc561dada2c7c8d46a6e11ee916281e06f9886a06ed3a8192a4cd4cf67"
+    },
+    {
+      "path": "Code_release/source_analysis/03_GP_calibration/run_BO_leave_document.py",
+      "bytes": 11158,
+      "SHA256": "f5db3896647000f6562706d03ac7f34aa5ca7ea4da4414b8d6978cc581a83d11"
+    },
+    {
+      "path": "Code_release/source_analysis/03_GP_calibration/run_BO_XDH_benchmark.py",
+      "bytes": 18352,
+      "SHA256": "34c839fa5ba750ffcd59628387ebb9b3a482a7ec1a2d11ced2901ec160b98777"
+    },
+    {
+      "path": "Code_release/source_analysis/03_GP_calibration/全部XO终点统一核查.py",
+      "bytes": 4427,
+      "SHA256": "a64d175ea5a02c2c314536d18a760099225e5013bf619890eb545a062cbfbe48"
+    },
+    {
+      "path": "Code_release/source_analysis/03_GP_calibration/固定分区终点清洁GP复算.py",
+      "bytes": 25450,
+      "SHA256": "86f707b59511bc053518776bd6eb04b16479bd0714b0462045150fa760eb8b53"
+    },
+    {
+      "path": "Code_release/source_analysis/03_GP_calibration/生成全部52候选优先序.py",
+      "bytes": 13677,
+      "SHA256": "ae82acef4540aff8d1fb6f47c232e043a1aa3577dab080a99fa43e39e3be3b27"
+    },
+    {
+      "path": "Code_release/source_analysis/04_assay_BO/plot_A05_assay_BO.py",
+      "bytes": 12833,
+      "SHA256": "4f81d8c3981984e22a48f2e24ed54125f925a5a3aaf418a39055e47cc821a987"
+    },
+    {
+      "path": "Code_release/source_analysis/04_assay_BO/run_BO_assay_replay.py",
+      "bytes": 18296,
+      "SHA256": "9ac792257871602009de18bfbc38fe1a40a900c94862aeeaf994a4085b000a6d"
+    },
+    {
+      "path": "Code_release/source_analysis/05_network_references/allvalidation_null_20261102.py",
+      "bytes": 6610,
+      "SHA256": "477523eeb773a4d5b4ab1b8422891993f7daac3ec62106cd1fbedd3bf5d2518a"
+    },
+    {
+      "path": "Code_release/source_analysis/05_network_references/audit_curveball_four_chains_20261102.py",
+      "bytes": 12900,
+      "SHA256": "c735853803c23fc02e87eaf44a296cb2a290ddc16e1a5abce169e92c792a4e18"
+    },
+    {
+      "path": "Code_release/source_analysis/05_network_references/bioadvance_compute_20261102.py",
+      "bytes": 10204,
+      "SHA256": "0b675640cff08ccf27a27d0e33e735cdec977bae1a1611ea3bc360d24b4022ac"
+    },
+    {
+      "path": "Code_release/source_analysis/05_network_references/run_gprofiler_enrichment.py",
+      "bytes": 32023,
+      "SHA256": "650f2b90a03705f1853e8230b761b83e577c9e2154bd3d86ca9dc46412312dc9"
+    },
+    {
+      "path": "Code_release/source_analysis/05_network_references/run_ppi_analysis.py",
+      "bytes": 17711,
+      "SHA256": "e87d3584c9629d62f6a3efc2f271bb90bfc217248515fe077f753b51d2689899"
+    },
+    {
+      "path": "Code_release/source_analysis/06_virtual_KO/ko_input_1500_memory_amendment_20261102.py",
+      "bytes": 5680,
+      "SHA256": "f4082ae4f3ae75688c34eec4ade57a9f4f284ae52d62fcd3892fb127daade2c8"
+    },
+    {
+      "path": "Code_release/source_analysis/06_virtual_KO/ko_input_1500_storage_audit_20261102.py",
+      "bytes": 3963,
+      "SHA256": "9d4a1984bdc4fdcd8e0daaea131252716ddca86aa7c6d4caad1c8a145384b8e3"
+    },
+    {
+      "path": "Code_release/source_analysis/06_virtual_KO/ko_input_audit_20261102.py",
+      "bytes": 6030,
+      "SHA256": "1c3b3022b430dc513c66c1da4e9cc6e3290da124c77aa1f44b0f93a5282c4cff"
+    },
+    {
+      "path": "Code_release/source_analysis/06_virtual_KO/virtualko_engine_20261102.R",
+      "bytes": 8853,
+      "SHA256": "47e24e7c51ca8f5947f03282f85f4b67be895cf52ffa7c17cbb25797b50e64f5"
+    },
+    {
+      "path": "Code_release/source_analysis/06_virtual_KO/virtualko_run_20261102.py",
+      "bytes": 3138,
+      "SHA256": "ef1be8c000f32b729998ebf46e222c17c354b2aa481f81d0ffafc1d5a41ebada"
+    },
+    {
+      "path": "Code_release/source_analysis/06_virtual_KO/virtualko_statistics_20261102.py",
+      "bytes": 30133,
+      "SHA256": "faf7bba4026a514246acdb6552cb5ed472e778f3ec13f568ba54f40788d1e8ee"
+    },
+    {
+      "path": "Code_release/source_analysis/07_genetics/extract_indexed_regions.py",
+      "bytes": 5693,
+      "SHA256": "64dfe0d6adfd796bf6db395b0098d52d15ee80d940b2df8cc10f6016cb1e444d"
+    },
+    {
+      "path": "Code_release/source_analysis/07_genetics/extract_secondary_wholeblood.py",
+      "bytes": 2913,
+      "SHA256": "7cd27278932ffaf3c231295b52f62b92dc13fa38ec5ed651472babbdea5df068"
+    },
+    {
+      "path": "Code_release/source_analysis/07_genetics/finalize_genetic_round2.py",
+      "bytes": 12262,
+      "SHA256": "32d8721903175970c9769c7b0951d0db6d4aff975df8bf596f75e8b45bfa4912"
+    },
+    {
+      "path": "Code_release/source_analysis/07_genetics/prepare_harmonized_coloc.py",
+      "bytes": 8022,
+      "SHA256": "6b54eafbc5ecaa52a242e72ebf9a8cde1641d0a279c828cc582457a8a106c9c3"
+    },
+    {
+      "path": "Code_release/source_analysis/07_genetics/prepare_kidney_harmonized_coloc.py",
+      "bytes": 8150,
+      "SHA256": "2ab1024afc6600d750284939ae9f6a3c2850723580c4d8589362d6085e4a694f"
+    },
+    {
+      "path": "Code_release/source_analysis/07_genetics/run_kidney_official_coloc.R",
+      "bytes": 3034,
+      "SHA256": "407f7bff1583b080dd11232b10eca7b5019b52240bb75f348e4bb665ef5a5ab6"
+    },
+    {
+      "path": "Code_release/source_analysis/07_genetics/run_official_coloc_functions.R",
+      "bytes": 3007,
+      "SHA256": "094fb5bbba55d45eebf406cf60e76c4446eab18847a45e7c513db1296a0b4126"
+    },
+    {
+      "path": "Code_release/source_analysis/08_single_cell/analyze_geo_pseudobulk.R",
+      "bytes": 5268,
+      "SHA256": "305eb10f4124781fb6ab53e27c9ede039c7df56a0bb96f4d785ddfb2b8002c3c"
+    },
+    {
+      "path": "Code_release/source_analysis/08_single_cell/prepare_geo_pseudobulk.py",
+      "bytes": 3643,
+      "SHA256": "c68fd83826bd07b4e2b48c52385834f827bc6232e548ee84382af81c5a9cf740"
+    },
+    {
+      "path": "Code_release/source_analysis/08_single_cell/sc_aggregate_20261030.py",
+      "bytes": 9353,
+      "SHA256": "eb5c8e67ce35832b1a7847b3002a8e256529b69218bfef241cbc8656d4b8221f"
+    },
+    {
+      "path": "Code_release/source_analysis/08_single_cell/sc_celltype_pseudobulk_20261030.R",
+      "bytes": 5740,
+      "SHA256": "d7889e6deb6fd10be20c709bc724cf0605f091069e0b9b492ce2bda473f1fa81"
+    },
+    {
+      "path": "Code_release/source_analysis/08_single_cell/sc_doublet_fit_20261030.py",
+      "bytes": 5323,
+      "SHA256": "f781916957c8c92a9e7e456d02ab0a4b369300add68fc8a84c448ac5e0ff6ed8"
+    },
+    {
+      "path": "Code_release/source_analysis/08_single_cell/sc_doublet_summarize_20261030.py",
+      "bytes": 11005,
+      "SHA256": "72ff74d7e46090f5eea4500ffd5c2c8309d5ff37abfd0a0a6f3d57cfa516ea30"
+    },
+    {
+      "path": "Code_release/source_analysis/08_single_cell/sc_embed_20261030.py",
+      "bytes": 4681,
+      "SHA256": "03f528fc1a5045ab2a582f323b083163e77249d4b61f596cab72046c279db7eb"
+    },
+    {
+      "path": "Code_release/source_analysis/08_single_cell/sc_expand_annotation_20261030.py",
+      "bytes": 2092,
+      "SHA256": "cf72452f7aa8ee1de3d336b6531d8bc63f8f327063904b5f89ced389db735819"
+    },
+    {
+      "path": "Code_release/source_analysis/08_single_cell/sc_finalize_annotations_20261030.py",
+      "bytes": 3370,
+      "SHA256": "e92dac0dcc3002f4a13ce6e2d562952d632d022b8cbe4ce72c48c3c4ab8a1eb5"
+    },
+    {
+      "path": "Code_release/source_analysis/08_single_cell/sc_prepare_20261030.py",
+      "bytes": 9591,
+      "SHA256": "76f3821b7f71b86f51c69c02a90d6179ca142d0a572b814a881ff9bc5a5407ec"
+    },
+    {
+      "path": "Code_release/source_analysis/08_single_cell/sc_run_pipeline_20261030.py",
+      "bytes": 2072,
+      "SHA256": "185014670048516063d1b80a423b5acb32822b845f510f48677e449a7fa79be6"
+    },
+    {
+      "path": "Code_release/source_analysis/09_regulatory_footprints/allvalidation_regulation_20261102.py",
+      "bytes": 11878,
+      "SHA256": "c417f8512ba9399bdea7f6218f3088d32f0840c44350d61baf9d62b2b8c63f09"
+    },
+    {
+      "path": "Code_release/source_analysis/09_regulatory_footprints/run_contrast_footprints.py",
+      "bytes": 15599,
+      "SHA256": "84ff133328ee6523f0dfa0d02d8a5e4dc280257ad3e3d64de122d3a673851121"
+    },
+    {
+      "path": "Code_release/source_analysis/09_regulatory_footprints/run_PROGENy.py",
+      "bytes": 6523,
+      "SHA256": "cb127aba756d24a3ceb4d170303c50afe4418ce7d3596886002adc58242712bd"
+    },
+    {
+      "path": "Code_release/source_analysis/10_cell_communication/liana_batch_runner.py",
+      "bytes": 1327,
+      "SHA256": "dd3f9d94165ce6cbd45e3395be6c94a535300862d8564f7aa51432b48bd3a927"
+    },
+    {
+      "path": "Code_release/source_analysis/10_cell_communication/liana_official_run.py",
+      "bytes": 14448,
+      "SHA256": "f300cdf0642d59011b1381892e3b87e75a3a45a46fa279c4736fcd854d43f6e9"
+    },
+    {
+      "path": "Code_release/source_analysis/11_functional_evidence/crossmatch_phase4_functional_hits.py",
+      "bytes": 3970,
+      "SHA256": "2e1b9f02dbde2ba6cfc6826e77c9665e930dcad0a7484cbf6e05b9859d053079"
+    },
+    {
+      "path": "Code_release/source_analysis/11_functional_evidence/全结构标准化并交叉.py",
+      "bytes": 10331,
+      "SHA256": "cdaa8697fb0f13f50e477a8587900781f743361e451f480a5461d85b50548a6f"
+    },
+    {
+      "path": "Code_release/source_analysis/11_functional_evidence/再分析Quercetin真实SI数值.py",
+      "bytes": 7145,
+      "SHA256": "60159d7001ae82535025d951fad52db193f2ea525604cc02ca70f6fdc456e3b3"
+    },
+    {
+      "path": "Code_release/source_analysis/11_functional_evidence/完成全部15剂量时序推断.py",
+      "bytes": 7188,
+      "SHA256": "200e3d5b6758f15b32124400b6ca05e2a9535843a8d03db6c1ef528d6ce286c9"
+    },
+    {
+      "path": "Code_release/source_analysis/12_public_protein/public_protein_validate_20261030.py",
+      "bytes": 11965,
+      "SHA256": "42e5b2ab8f2cfe247ed9c4f3a5cd897bacddfc6239238fe8960821dce5bbf4fe"
+    },
+    {
+      "path": "Code_release/source_analysis/13_structure_and_docking/bioadvance_structure_20261102.py",
+      "bytes": 5395,
+      "SHA256": "d5deef45065d595ec5c27a0e5c838678e9cc92cb77e2b7d447f0c6dedf4800ea"
+    },
+    {
+      "path": "Code_release/source_analysis/13_structure_and_docking/md6_docking_20261102.py",
+      "bytes": 3293,
+      "SHA256": "a16216a57e1c286574744a76b27669efbd8f9c8f8b11010b7abfc8a6c7b6453f"
+    },
+    {
+      "path": "Code_release/source_analysis/13_structure_and_docking/md6_md_20261102.py",
+      "bytes": 6298,
+      "SHA256": "2c4a682b840f5e9aa4bbbd7808b99e678af44ea8e3f29969dab858312734615d"
+    },
+    {
+      "path": "Code_release/source_analysis/13_structure_and_docking/md6_prepare_20261102.py",
+      "bytes": 7238,
+      "SHA256": "0c6e71fbdcb11ad20cf9856a921cac92ff097df449386fc76394c6de6f8c6b1d"
+    },
+    {
+      "path": "Code_release/source_analysis/13_structure_and_docking/计算3NVY两位点全部实测接触.py",
+      "bytes": 14095,
+      "SHA256": "c51f0f0328e4cfeff2b071b67d0910eaa5d7759893045f603563e8edd957dc29"
+    },
+    {
+      "path": "Code_release/source_analysis/14_statistical_audit/保守性审计_可复跑.py",
+      "bytes": 15294,
+      "SHA256": "54d275e695587a2a018dfa8448640de2e968ab50682a61bbd44a4c60b046027e"
+    },
+    {
+      "path": "Code_release/source_analysis/15_bulk_microarray/analyze_geo_expression.R",
+      "bytes": 8552,
+      "SHA256": "4bc9f4721416a5bc0e0b151989cd158273f79a736f9436f63e591ec475c2500b"
+    },
+    {
+      "path": "Code_release/THIRD_PARTY_NOTICES.md",
+      "bytes": 1717,
+      "SHA256": "9da7d1bf00d7d96e90cacc11a638b9a94398835aae294b0ac9298293f82fca2e"
+    }
+  ],
+  "ZIP": {
+    "file": "Code_W0_v0.1.1_MIT_release.zip",
+    "bytes": 503097,
+    "SHA256": "2c2f8052e9b9b4fe50217e006a428b139e57d53e60c911d430b435199b57fb7e"
+  },
+  "old_W0_code_ZIP_SHA256": "cd4df0e9a0a178efa2d3440a78d8bd3ad3dcb6ff4a0aa41e85332664f2bfe235",
+  "code_licence": "MIT project-owned software only, third-party/data excluded",
+  "code_publication_ready_local": true,
+  "all_22_intact_data_archives_ready_to_publish": false,
+  "withheld_member_count": 5,
+  "source_data_zip_modified": false,
+  "E15_E18_included": false,
+  "both_paper_WP0_closed": false,
+  "external_mutations_performed": false,
+  "tag_created": false,
+  "DOI_registered_or_publication_verified": false,
+  "old_sources_modified": false
+}

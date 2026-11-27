@@ -1,0 +1,7 @@
+# Publication status — 27 November 2026
+
+**Zenodo: published.** [Record 24574321](https://zenodo.org/records/24574321), DOI [10.5281/zenodo.24574321](https://doi.org/10.5281/zenodo.24574321), data version `0.1.1-W0-public-derivative`, lists 28 files and the sole supplied creator Yang, Taoshuo. Publication was observed in the logged-in UI and confirmed by [anonymous public API](https://zenodo.org/api/records/24574321) (`published`, `done`, `submitted=true`, open access). All 28 API-reported sizes/MD5 values match the complete local files; an anonymous README download also matched byte-for-byte. This verification did not redownload the entire 128,823,721-byte deposit.
+
+**GitHub: target tag pending.** The intended code tag is `v0.1.1-W0-release`; its creation has not been completed in this workflow. The prepared root-file update is separate from that tag. No independent software DOI is asserted: the DOI above identifies the published mixed data-and-code record, and CITATION.cff includes it as a related data reference.
+
+**Scope and reuse.** The W0 derivative retains 646 original members, omits five from three partial archives (F03/F04/F22), and supplies source links and rights manifests. Author code is MIT; mixed data retain their per-file conditions. The record covers the W0 baseline, with later E15–E19 scientific results outside scope. Historical original-archive audit files and the sealed code ZIP remain unchanged. Record `23969076` is the unpublished historical draft and should not replace the public DOI above.

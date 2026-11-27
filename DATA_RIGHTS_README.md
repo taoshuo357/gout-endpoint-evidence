@@ -1,0 +1,13 @@
+# The 22 unchanged W0 source-data archives
+
+Prepared 26 November 2026. Audited 651 members, including 157 indexed input instances. The 22 ZIPs were not edited, copied into this code ZIP or relicensed. DATA_ARCHIVE_RIGHTS.tsv records exact SHA256/MD5. Every member has an explicit action in DATA_MEMBER_RIGHTS.tsv.
+
+REDISTRIBUTE_AUTHOR_METADATA covers original metadata expression under MIT, with source facts/notices retained. REDISTRIBUTE_AUTHOR_NUMERICAL_RESULT identifies computed statistics/diagnostics/plot summaries for inclusion with attribution; it is not a grant to copy their underlying database/measurement records. This classification does not assert that every source fact is copyrightable.
+
+RETAIN_ORIGINAL_LICENSE requires the named attribution/NC/ShareAlike conditions as applicable. Public access, hashing donors and data transformation do not erase those conditions. No common CC BY licence is applied to the compilation.
+
+RETAIN_SOURCE_TERMS_NO_NEW_GRANT retains original public-source terms without inventing a common CC licence. Chemical IDs/SMILES, gene symbols and categorical observations are not automatically copyrighted narrative. HOLD_PENDING_SOURCE_TERMS identifies 5 direct source-record/membership members for specific clarification; it does not assert their use is unlawful. No blanket source-provider grant has been established for these original fields in this audit. WITHHOLD_OR_REPLACE_MEMBERS.tsv gives exact archive/member/SHA and replacement actions. A sidecar creates no permission: do not publish an intact archive containing a held member until resolved. A rights-reviewed derivative may omit it, providing an explicit source/accession link and unavailable-input notice. That incomplete derivative must not be described as supporting a full strict-bundle redraw. Old frozen originals remain intact.
+
+AUTHOR_OUTPUTS_PUBLIC_LIST.tsv lists 557 author-result/metadata members. Retained-licence inputs are separately identified, not called author-created data. The public protein source is Zenodo23181166 Version3.0 under CC BY-NC4, including applicable adaptations. The code ZIP contains no private clinical workbook; public protein-derived hashed-donor observations are not new own clinical data.
+
+OFFICIAL_SOURCE_RIGHTS.tsv records current primary evidence and precisely labelled historical/unverified items. No source-specific grant from GeneCards or another unresolved provider is invented. Full-source measurements/resource-member lists remain under source terms even when a computed result is shareable. This is a member-level review inventory, not a blanket determination that all included source terms have been cleared.

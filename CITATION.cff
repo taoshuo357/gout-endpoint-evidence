@@ -1,11 +1,21 @@
 cff-version: 1.2.0
-message: "Cite the exact archived code version and its DOI when available."
-title: "Endpoint-resolved gout evidence analysis and figure sources"
-version: "v0.1-W0-review"
-date-released: "2026-11-05"
+message: "Cite this software for code use and the related data reference for W0 data reuse. The GitHub version is a target until its tag is created."
+title: "Endpoint-resolved gout evidence: W0 baseline analysis and figure code"
+version: "v0.1.1-W0-release"
 authors:
   - family-names: "Yang"
     given-names: "Taoshuo"
-abstract: "Original analysis script snapshots and figure sources for a retrospective public-data study. No new molecular measurements. Raw inputs remain subject to their original licences."
-
+license: MIT
 repository-code: "https://github.com/taoshuo357/gout-endpoint-evidence"
+abstract: "W0 baseline author code with 78 unchanged Python/R scripts and scoped MIT licensing. Related published data use file-specific source rights. Later E15-E19 scientific analyses are outside this snapshot."
+references:
+  - type: data
+    title: "Source data and author code for endpoint-resolved gout compound evaluation: rights-reviewed W0 derivative"
+    authors:
+      - family-names: "Yang"
+        given-names: "Taoshuo"
+    doi: "10.5281/zenodo.24574321"
+    url: "https://doi.org/10.5281/zenodo.24574321"
+    date-released: "2026-11-27"
+    version: "0.1.1-W0-public-derivative"
+    scope: "Related W0 data-and-author-code deposit, not a separate software DOI."
